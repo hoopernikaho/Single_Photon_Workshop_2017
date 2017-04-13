@@ -1,0 +1,14 @@
+Purchase Amount: [[Model]]
+    (Model(one_pulse, prefix='one_') + Model(one_pulse, prefix='two_'))
+[[Variables]]
+    one_x_offset:    3.7178e-07 +/- 3.25e-09 (0.87%) (init= 3.811495e-07)
+    two_x_offset:    2.9774e-07 +/- 5.82e-09 (1.95%) (init= 3.134283e-07)
+    one_amplitude:   1.13896644 +/- 0.086456 (7.59%) (init= 0.8975201)
+    two_amplitude:   0.65380460 +/- 0.086455 (13.22%) (init= 0.8966543)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(one_amplitude, two_amplitude)  = -0.996 
+    C(two_x_offset, one_amplitude)  = -0.921 
+    C(one_x_offset, two_amplitude)  =  0.916 
+    C(two_x_offset, two_amplitude)  =  0.912 
+    C(one_x_offset, one_amplitude)  = -0.907 
+    C(one_x_offset, two_x_offset)  =  0.759 
